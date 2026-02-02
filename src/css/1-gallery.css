@@ -1,0 +1,37 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery-item {
+    width: 360px;
+    height: 200px;
+    padding: 12px;
+    transition: 0.2s ease;
+}
+
+.gallery-item:hover {
+   transform: scale(1.02);
+
+}
+
+.gallery-image {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__item img {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+}
