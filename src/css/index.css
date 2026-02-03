@@ -17,7 +17,7 @@ ul {
   font-size: 24px;
 }
 
-a:hover {
+.nav-button:hover {
   transform: scale(1.05);
   background-color:#373FF0 ;
 }
